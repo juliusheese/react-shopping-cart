@@ -9,7 +9,6 @@ import ShoppingCart from './components/ShoppingCart';
 
 import ProductContext from './contexts/ProductContext.js'
 import CartContext from './contexts/CartContext.js'
-CartContext.Provider
 
 function App() {
 	const [products] = useState(data);
