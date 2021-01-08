@@ -12,10 +12,10 @@ function App() {
 	const [cart, setCart] = useState([]);
 
 	const addItem = item => {
-		console.log(item)
-		console.log(ShoppingCart)
-		ShoppingCart.cart += item;
-
+		console.log(item);
+		console.log(cart);
+		console.log(products);
+		setCart(cart);
 	};
 
 	return (
