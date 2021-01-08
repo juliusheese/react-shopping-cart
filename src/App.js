@@ -17,7 +17,6 @@ function App() {
 		console.log(item);
 		console.log(cart);
 		console.log(products);
-		setCart(cart);
 	};
 
 	return (
