@@ -12,7 +12,9 @@ function App() {
 	const [cart, setCart] = useState([]);
 
 	const addItem = item => {
-		props.cart += this.props.item;
+		console.log(item)
+		console.log(ShoppingCart)
+		ShoppingCart.cart += item;
 
 	};
 
