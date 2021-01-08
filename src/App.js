@@ -12,8 +12,8 @@ function App() {
 	const [cart, setCart] = useState([]);
 
 	const addItem = item => {
-		// add the given item to the cart
-		//going to do this first
+		props.cart += this.props.item;
+
 	};
 
 	return (
