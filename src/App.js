@@ -15,9 +15,7 @@ function App() {
 	const [cart, setCart] = useState([]);
 
 	const addItem = item => {
-		console.log(item);
-		console.log(cart);
-		console.log(products);
+		return (item.id && setCart([...cart, item]))
 	};
 
 	return (
